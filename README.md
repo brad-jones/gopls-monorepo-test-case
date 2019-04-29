@@ -1,5 +1,8 @@
 # gopls-monorepo-test-case
 
+__UPDATE:__ By using a multi root workspace `gopls` will work correctly.
+see: <https://github.com/Microsoft/vscode-go/issues/2447>
+
 If you open `code .` at the root of this repo, `gopls` will fail with errors like:
 
 ```
